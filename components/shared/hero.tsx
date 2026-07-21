@@ -89,6 +89,44 @@ export function Hero() {
               {siteConfig.cta.secondary}
             </Button>
           </div>
+          {/* Expertise */}
+          <div className="mt-14 border-t border-white/10 pt-8">
+            <p className="mb-5 text-xs font-semibold uppercase tracking-[0.28em] text-slate-500">
+              Expertise
+            </p>
+
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm font-medium text-slate-300 sm:text-base">
+              <span>Engenharia de Software</span>
+
+              <span
+                aria-hidden="true"
+                className="hidden h-1 w-1 rounded-full bg-cyan-400 sm:block"
+              />
+
+              <span>Inteligência Artificial</span>
+
+              <span
+                aria-hidden="true"
+                className="hidden h-1 w-1 rounded-full bg-cyan-400 sm:block"
+              />
+
+              <span>Cloud</span>
+
+              <span
+                aria-hidden="true"
+                className="hidden h-1 w-1 rounded-full bg-cyan-400 sm:block"
+              />
+
+              <span>Integração</span>
+
+              <span
+                aria-hidden="true"
+                className="hidden h-1 w-1 rounded-full bg-cyan-400 sm:block"
+              />
+
+              <span>Dados</span>
+            </div>
+          </div>
         </div>
       </Container>
     </section>
