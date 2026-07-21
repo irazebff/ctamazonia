@@ -4,23 +4,25 @@ import { siteConfig } from '@/constants/site';
 
 export function Hero() {
   return (
-    <section className="py-24 bg-slate-100">
+    <section className="py-24">
       <Container>
-        <div className="max-w-3xl space-y-6">
-          <span className="block text-sm font-semibold uppercase tracking-[0.3em] text-cyan-600">
+        <div className="max-w-3xl">
+          <span className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-500">
             Centro Tecnológico da Amazônia
           </span>
 
-          <h1 className="text-5xl font-bold text-slate-900">
+          <h1 className="mt-6 text-5xl font-bold leading-tight">
             {siteConfig.company.slogan}
           </h1>
 
-          <p className="text-lg text-slate-600">
+          <p className="mt-6 text-lg text-muted-foreground">
             {siteConfig.company.description}
           </p>
 
-          <div className="flex gap-4">
-            <Button>{siteConfig.cta.primary}</Button>
+          <div className="mt-10 flex gap-4">
+            <Button>
+              {siteConfig.cta.primary}
+            </Button>
 
             <Button variant="outline">
               {siteConfig.cta.secondary}
